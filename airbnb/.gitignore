@@ -1,0 +1,8 @@
+
+target/
+dbt_packages/
+logs/
+profiles.yml
+rsa_key.p8
+.user.yml
+.DS_Store

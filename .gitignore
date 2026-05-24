@@ -1,0 +1,30 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+dbt_venv/
+
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.dist/
+build/
+
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/
+
+# dbt generated artifacts
+**/target/
+**/dbt_packages/
+**/logs/
+
+# dbt local credentials / secrets
+**/profiles.yml
+**/*.p8
+**/*.pem
+
+# Keep example profile templates trackable
+!**/EXAMPLE-profiles.yml
